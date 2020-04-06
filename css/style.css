@@ -142,3 +142,40 @@ a{
     opacity: 1;
 }
 
+.specialised {
+    padding: 55px 0 93px;
+    background-color: black;
+    color: #fffff0;
+    text-align: center;
+}
+.specialised__title {
+}
+.title {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.specialised__items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.specialised__item img{
+    width: 190px;
+    height: 190px;
+    border: 2px solid #ff6600;
+    border-radius: 100px;
+    margin: 0 auto;
+    
+}
+2^06min
+.specialised__item {
+}
+.specialised__item-img {
+}
+.specialised__item-tittle {
+}
+.specialised__item-text {
+}
