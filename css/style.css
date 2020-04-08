@@ -99,7 +99,7 @@ a{
     font-size: 24px;
     margin-bottom: 120px;
 }
-.header-slider__btn {
+.action__btn {
     text-transform: uppercase;
     color: black;
     font-weight: 700;
@@ -188,4 +188,36 @@ a{
 .specialised__item-text {
     padding: 0 10px;
     opacity: 0.5;
+}
+
+.ideology {
+    padding-bottom: 50px;
+    background-color: black;
+    color: #fffff0;
+    text-align: center;
+}
+.ideology__items {
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.ideology-img img {
+    width: 460px;
+    height: 307px;
+}
+.ideology-info {
+    padding: 50px 30px 30px 30px;
+}
+.ideology__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff6600 ;
+}
+.ideology__item-text {
+    padding: 0 10px;
+    opacity: 0.5;
+    padding-bottom: 50px;
+    text-align: justify;
 }
