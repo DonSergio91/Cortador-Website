@@ -18,7 +18,7 @@ a{
 /* .header{
     background-image: url(../images/home.jpg);
     height: 10vh;
-    border-bottom: solid 1px #98720b;
+    border-bottom: solid 1px #ff6600;
 } */
 
 .header{
@@ -71,7 +71,7 @@ a{
 
 .menu__list a:hover{
     opacity: 0.8;
-    color: #98720b;
+    color: #cc6600 ;
 }
 
 .header-slider {
@@ -184,7 +184,7 @@ a{
     margin-bottom: 11px;
     font-size: 20px;
     font-weight: 700;
-    color:#98720b;
+    color: #cc6600 ;
 }
 .specialised__item-text {
     padding: 0 10px;
@@ -214,7 +214,7 @@ a{
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: 600;
-    color: #98720b ;
+    color: #cc6600 ;
 }
 .ideology__item-text {
     padding: 0 10px;
@@ -249,7 +249,7 @@ a{
     margin: 40px 0 10px 0;
     font-size: 20px;
     font-weight: 600;
-    color: #98720b ;
+    color: #cc6600 ;
 }
 .team__item-descr {
     padding: 0 10px;
@@ -343,7 +343,7 @@ a{
     margin: 10px 0;
     font-size: 20px;
     font-weight: 600;
-    color: #98720b ;
+    color: #cc6600 ;
 }
 .insta__text {
     padding: 0 10px;
@@ -386,14 +386,14 @@ a{
 .form {
     width: 600px;
     height: 500px;
-    /* border: #98720b solid 1px; */
+    /* border: #cc6600 solid 1px; */
     padding: 15px;
 }
 .form__title {
     margin-bottom: 50px;
     font-size: 20px;
     font-weight: 600;
-    color: #98720b ;
+    color: #cc6600;
 }
 
 .form__inputs {
@@ -425,7 +425,32 @@ a{
     border-radius: 5px;
     border: none;
 }
-
 form .action__btn {
-    border: #98720b solid 2px;
+    border: #cc6600 solid 3px;
+}
+
+
+.footer {
+    padding: 50px 0;
+    background-image: url(../images/fondo-excelente.jpg);
+    color: #fffff0;
+    text-align: center;
+}
+
+.footer__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social {
+    padding-bottom: 30px;
+}
+
+.footer-line{
+    display: flex;
+    justify-content: space-between;
+
+}
+footer .logo {
+    margin-top: -25px;
 }
