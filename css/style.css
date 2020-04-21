@@ -940,7 +940,9 @@ footer .logo {
     .ideology-img{
         display: none;
     }
-    
+    .footer-line .logo{
+        margin: 0 auto;
+    }
     
 }
 
