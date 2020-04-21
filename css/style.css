@@ -165,7 +165,7 @@ a{
 }
 
 .specialised__items:last-child img {
-    opacity: 0.7;
+    opacity: 0.6;
 }
 .specialised__item img{
     width: 160px;
@@ -201,6 +201,9 @@ a{
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
+}
+.ideology-img{
+    margin: auto 0;
 }
 .ideology-img img {
     width: 460px;
@@ -567,10 +570,69 @@ footer .logo {
         display: none;
     }
 
+    .specialised {
+        padding-bottom: 30px;
+    }
+    .specialised__title {
+        margin-bottom: 30px;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    .specialised__item {
+        width: 190px;
+    }
+    .specialised__item img{
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;  
+    }
+    .specialised__item-img {
+        margin-bottom: 10px;
+    }
+    .specialised__item-tittle {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .specialised__item-text {
+        padding: 0 10px;
+        opacity: 0.5;
+        font-size: 14px;
+        line-height: 20px; 
+    }
+    .ideology {
+        padding: 25px 0;
+    }
+    .ideology__items {
+        padding: 0;
+    }
+   
+    .ideology-img img {
+        width: 350px;
+        height: auto;
+    }
+    .ideology-info {
+        padding: 0px 15px;
+    }
+    .ideology__title{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    
+    .ideology__item-text {
+        padding-bottom: 30px;
+        font-size: 14px;
+        line-height: 20px; 
+    }
 }
 
 @media (max-width: 750px){
-
+    .header{
+        min-height: 500px;
+    }
     .menu__list{
         display: none;
         position: absolute;
@@ -635,9 +697,46 @@ footer .logo {
         margin-bottom: 70px;
     }
 
+    .ideology__items {
+        flex-direction: column;
+    }
 }
 
-@media (max-width: 370px){
+@media (max-width: 710px){
+    .specialised__item-text {
+        display: none;
+    }
+}
+
+@media (max-width: 550px){
+
+    .title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .specialised__items{
+        flex-direction: column;
+    }
+    .specialised__item {
+        margin: 0 auto;
+        width: 200px;
+    }
+    .specialised__item img{
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;  
+    }
+
+    
+}
+
+@media (max-width: 410px){
+    .ideology-img img {
+        width: 300px;
+        height: auto;
+}
+
+@media (max-width: 380px){
     .logo img{
         width: 150px;
         height: auto;
@@ -649,7 +748,11 @@ footer .logo {
     .action__btn {
         padding: 10px 30px;
         line-height: 13px;
-        font-size: 13px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .ideology-img{
+        display: none;
     }
 }
 
