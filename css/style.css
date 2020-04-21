@@ -445,6 +445,7 @@ form .action__btn {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-right: 20px;
 }
 .footer .footer__items .social {
     padding-bottom: 30px;
@@ -847,7 +848,15 @@ footer .logo {
         line-height: 20px;
         font-weight: 600;
     }
-
+    .footer__items {
+        padding-right: 0;
+    }
+    .footer__items .social{
+        text-align: center;
+    }
+    .footer-line .logo{
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 710px){
