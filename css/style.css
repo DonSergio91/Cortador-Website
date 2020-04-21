@@ -263,7 +263,6 @@ a{
 
 
 .video__block {
-    /* padding: 30px 0; */
     background-color: black;
     color: #fffff0;
     text-align: center;
@@ -520,45 +519,6 @@ footer .logo {
 
 
 
-
-/* .team {
-    padding: 50px 0;
-    background-color: black;
-    color: #fffff0;
-    text-align: center;
-}
-.team__items {
-    padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-}
-.team__item {
-    width: 250px;
-    margin: 0 auto;
-}
-.team__item-img img{
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-    border-radius: 125px;
-}
-.team__item-title {
-    margin: 40px 0 10px 0;
-    font-size: 20px;
-    font-weight: 600;
-    color: #cc6600 ;
-}
-.team__item-descr {
-    padding: 0 10px;
-    opacity: 0.5;
-    padding-bottom: 50px;
-    text-align: center;
-} */
-
-
-
-
 @media (max-width: 1190px){
 
     .header{
@@ -598,6 +558,36 @@ footer .logo {
     }
     .team__item-descr {
         padding-bottom: 0px;
+    }
+    .insta__photo {
+        width: 200px;
+    }
+    .insta__photo img{
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+
+    .form__info {
+        padding: 25px 0;
+    }
+    .form__info-items {
+        padding: 15px;
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    .form__img img{
+        width: 404px;
+        height: auto;
+    }
+    .form {
+        width: 450px;
+        height: auto;
+    }
+
+
 }
 
 
@@ -687,7 +677,44 @@ footer .logo {
         width: 150px;
         height: 150px;
     }
+    .video__intro {
+        max-height: 250px;
+    }
+    .video__text-title {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .video__text-descr {
+        padding-bottom: 0;
+        font-size: 16px;
+    }
+
+    .insta__photo {
+        width: 200px;
+        padding: 10px;
+    }
+    .insta__photo img{
+        width: 150px;
+        height: 150px;
+    }
+
+
+
+
+    .form__img{
+        display: none;
+    }
+    .form {
+        margin: 0 auto;
+        width: 600px;
+    }
+
+
+
 }
+
+
+
 
 @media (max-width: 750px){
     .header{
@@ -780,11 +807,60 @@ footer .logo {
         line-height: 10px;
     }
     
+    .video__intro {
+        max-height: 170px;
+    }
+
+    .insta__photos :nth-child(3){
+        display: none;
+    }
+    .insta__photos :nth-child(4){
+        display: none;
+    }
+    .insta__photo {
+        width: 250px;
+        padding: 10px;
+    }
+    .insta__photo img{
+        width: 230px;
+        height: 230px;
+    }
+
+
+
+    .form__title {
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+    
+    .input {
+        height: 30px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .textarea {
+        height: 30px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
 }
 
 @media (max-width: 710px){
     .specialised__item-text {
         display: none;
+    }
+    .video__text-title {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .video__text-descr {
+        padding-bottom: 0;
+        font-size: 14px;
     }
 }
 
@@ -809,13 +885,41 @@ footer .logo {
     .team{
         display: none;
     }
-    
+    .video__block{
+        display: none;
+    }
+    .insta__photos{
+        flex-direction: column;
+    }
+    .insta__photo {
+        width: 270px;
+        padding: 10px;
+    }
+    .insta__block {
+        padding: 25px 0;
+    }
+    .insta__title {
+        font-size: 16px;
+    }
+    .insta__text {
+        padding-bottom: 15px;
+        font-size: 14px;
+    }
+    .insta__photo img{
+        width: 250px;
+        height: 250px;
+    } 
 }
 
 @media (max-width: 410px){
     .ideology-img img {
         width: 300px;
         height: auto;
+    }
+
+    .insta__photos :nth-child(2){
+        display: none;
+    }
 }
 
 @media (max-width: 380px){
@@ -836,6 +940,8 @@ footer .logo {
     .ideology-img{
         display: none;
     }
+    
+    
 }
 
 
