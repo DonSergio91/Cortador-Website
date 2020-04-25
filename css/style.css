@@ -405,7 +405,9 @@ a{
     font-weight: 600;
     color: #cc6600;
 }
-
+.form__title span{
+    color: #fff;
+}
 .form__inputs {
     display: flex;
     flex-direction: column;
@@ -863,7 +865,7 @@ footer .logo {
     .video__intro {
         max-height: 170px;
     }
-
+    
     .insta__photos :nth-child(3){
         display: none;
     }
@@ -922,13 +924,15 @@ footer .logo {
         margin: 0 auto;
         padding: 0 15px;
     }
-    body :nth-child(3) .production-box{
+    /* body :nth-child(3) .production-box{
         flex-direction: column;
     }
     body :nth-child(5) .production-box{
         flex-direction: column;
+    } */
+    .production-box--right .production-box__info{
+        order: 0;
     }
-
 }
 
 @media (max-width: 710px){
